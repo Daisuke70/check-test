@@ -24,6 +24,7 @@
         <div class="contact-form__heading">
             <h2>Contact</h2>
         </div>
+
     <form class="form">
         <div class="form__group">
             <div class="form__group-title">
@@ -32,8 +33,8 @@
             </div>
         <div class="form__group-content">
             <div class="form__input--text">
-                <input type="text" name="last-name" placeholder="例:山田" />
-                <input type="text" name="first-name" placeholder="例:太郎" />
+                <input type="text" name="last-name" class="field" placeholder="例:山田" />
+                <input type="text" name="first-name" class="field" placeholder="例:太郎" />
             </div>
             <div class="form__error">
               <!--バリデーション機能を実装したら記述します。-->
@@ -65,7 +66,7 @@
             </div>
         <div class="form__group-content">
             <div class="form__input--text">
-                <input type="email" name="email" placeholder="例:test@example.com" />
+                <input type="email" name="email" class="field" placeholder="例:test@example.com" />
             </div>
             <div class="form__error">
               <!--バリデーション機能を実装したら記述します。-->
@@ -80,9 +81,9 @@
             </div>
         <div class="form__group-content">
             <div class="form__input--text">
-                <input type="tel" name="tel" placeholder="080" />
-                <input type="tel" name="tel" placeholder="1234" />
-                <input type="tel" name="tel" placeholder="5678" />
+                <input type="tel" name="tel" class="field" placeholder="080" /> -
+                <input type="tel" name="tel" class="field" placeholder="1234" /> -
+                <input type="tel" name="tel" class="field" placeholder="5678" />
             </div>
             <div class="form__error">
               <!--バリデーション機能を実装したら記述します。-->
@@ -97,7 +98,7 @@
             </div>
         <div class="form__group-content">
             <div class="form__input--text">
-            <input type="text" name="address" placeholder="例:東京都渋谷区千駄ヶ谷1-2-3" />
+            <input type="text" name="address" class="field" placeholder="例:東京都渋谷区千駄ヶ谷1-2-3" />
             </div>
             <div class="form__error">
               <!--バリデーション機能を実装したら記述します。-->
@@ -108,11 +109,10 @@
         <div class="form__group">
             <div class="form__group-title">
                 <span class="form__label--item">建物名</span>
-                <span class="form__label--required">※</span>
             </div>
         <div class="form__group-content">
             <div class="form__input--text">
-            <input type="text" name="building" placeholder="例:千駄ヶ谷マンション101" />
+            <input type="text" name="building" class="field" placeholder="例:千駄ヶ谷マンション101" />
             </div>
             <div class="form__error">
               <!--バリデーション機能を実装したら記述します。-->
@@ -126,7 +126,7 @@
                 <span class="form__label--required">※</span>
             </div>
         <div class="form__group-content">
-            <div class="form__input--text">
+            <div class="form__input--select">
                 <select name="confirm">
                     <option value="select" selected hidden>選択してください</option>
                     <option value="confirm1">商品のお届けについて</option>
@@ -136,8 +136,9 @@
                     <option value="confirm5">その他</option>
                 </select>
             <div class="form__error">
-              <!--バリデーション機能を実装したら記述します。-->
+                <!--バリデーション機能を実装したら記述します。-->
             </div>
+        </div>
         </div>
         </div>
 
@@ -147,16 +148,16 @@
             </div>
             <div class="form__group-content">
                 <div class="form__input--textarea">
-                    <textarea name="content" placeholder="資料をいただきたいです"></textarea>
+                    <textarea name="content" class="field" placeholder="お問い合せ内容をご記載ください"></textarea>
                 </div>
             </div>
         </div>
         <div class="form__button">
-            <button class="form__button-submit" type="submit">送信</button>
+            <button class="form__button-submit" type="submit">確認画面</button>
         </div>
-        </form>
+    </form>
     </div>
-    </main>
+</main>
 </body>
 
 </html>
