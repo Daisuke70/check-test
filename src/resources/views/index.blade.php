@@ -33,8 +33,8 @@
             </div>
         <div class="form__group-content">
             <div class="form__input--text">
-                <input type="text" name="last-name" class="field" placeholder="例:山田" />
-                <input type="text" name="first-name" class="field" placeholder="例:太郎" />
+                <input type="text" name="last-name" class="size-input-nameS" placeholder="例:山田" />
+                <input type="text" name="first-name" class="size-input-nameS" placeholder="例:太郎" />
             </div>
             <div class="form__error">
               <!--バリデーション機能を実装したら記述します。-->
@@ -66,7 +66,7 @@
             </div>
         <div class="form__group-content">
             <div class="form__input--text">
-                <input type="email" name="email" class="field" placeholder="例:test@example.com" />
+                <input type="email" name="email" class="size-input-text" placeholder="例:test@example.com" />
             </div>
             <div class="form__error">
               <!--バリデーション機能を実装したら記述します。-->
@@ -98,7 +98,7 @@
             </div>
         <div class="form__group-content">
             <div class="form__input--text">
-            <input type="text" name="address" class="field" placeholder="例:東京都渋谷区千駄ヶ谷1-2-3" />
+            <input type="text" name="address" class="size-input-text" placeholder="例:東京都渋谷区千駄ヶ谷1-2-3" />
             </div>
             <div class="form__error">
               <!--バリデーション機能を実装したら記述します。-->
@@ -112,7 +112,7 @@
             </div>
         <div class="form__group-content">
             <div class="form__input--text">
-            <input type="text" name="building" class="field" placeholder="例:千駄ヶ谷マンション101" />
+            <input type="text" name="building" class="size-input-text" placeholder="例:千駄ヶ谷マンション101" />
             </div>
             <div class="form__error">
               <!--バリデーション機能を実装したら記述します。-->
@@ -148,7 +148,7 @@
             </div>
             <div class="form__group-content">
                 <div class="form__input--textarea">
-                    <textarea name="content" class="field" placeholder="お問い合せ内容をご記載ください"></textarea>
+                    <textarea name="content" placeholder="お問い合せ内容をご記載ください"></textarea>
                 </div>
             </div>
         </div>
