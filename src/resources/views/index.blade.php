@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header class="header">
+<header class="header">
     <div class="header__inner">
         <a class="header__logo" href="/">
             FashionablyLate
@@ -25,7 +25,8 @@
             <h2>Contact</h2>
         </div>
 
-    <form class="form">
+    <form class="form" action="/contacts/confirm" method="post">
+        @csrf
         <div class="form__group">
             <div class="form__group-title">
                 <span class="form__label--item">お名前</span>
