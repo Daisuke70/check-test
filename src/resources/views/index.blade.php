@@ -33,8 +33,8 @@
             </div>
         <div class="form__group-content">
             <div class="form__input--text">
-                <input type="text" name="last-name" class="size-input-nameS" placeholder="例:山田" />
-                <input type="text" name="first-name" class="size-input-nameS" placeholder="例:太郎" />
+                <input type="text" name="last-name" class="size-input-nameL" placeholder="例:山田" />
+                <input type="text" name="first-name" class="size-input-nameF" placeholder="例:太郎" />
             </div>
             <div class="form__error">
               <!--バリデーション機能を実装したら記述します。-->
@@ -49,9 +49,9 @@
             </div>
         <div class="form__group-content">
             <div class="form__input--radio">
-                <input id="male" type="radio" name="sex" value="male" checked="checked"><label for="male">男性</label>
-                <input id="female" type="radio" name="sex" value="female"><label for="female">女性</label>
-                <input id="other" type="radio" name="sex" value="female"><label for="female">その他</label>
+                <input id="male" type="radio" name="gender" value="male" checked="checked"><label for="male">男性</label>
+                <input id="female" type="radio" name="gender" value="female"><label for="female">女性</label>
+                <input id="other" type="radio" name="gender" value="other"><label for="other">その他</label>
             </div>
             <div class="form__error">
               <!--バリデーション機能を実装したら記述します。-->
@@ -81,9 +81,9 @@
             </div>
         <div class="form__group-content">
             <div class="form__input--text">
-                <input type="tel" name="tel" class="field" placeholder="080" /> -
-                <input type="tel" name="tel" class="field" placeholder="1234" /> -
-                <input type="tel" name="tel" class="field" placeholder="5678" />
+                <input type="tel" name="tel" class="size-input-tel-1" placeholder="080" /> -
+                <input type="tel" name="tel" class="size-input-tel-2" placeholder="1234" /> -
+                <input type="tel" name="tel" class="size-input-tel-3" placeholder="5678" />
             </div>
             <div class="form__error">
               <!--バリデーション機能を実装したら記述します。-->
