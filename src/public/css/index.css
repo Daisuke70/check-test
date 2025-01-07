@@ -1,0 +1,191 @@
+.header {
+    background: white;
+    text-align: center;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 25px 10px;
+    max-width: 100%;
+    border-bottom: 1px solid ;
+}
+
+.header__logo {
+    color: #6a554e;
+    font-family: 'Georgia', serif;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+    color: #6a554e;
+}
+
+.form {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    color: #6a554e;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__label--required {
+    color: red;
+}
+
+.size-input-nameL {
+    width: 240px;
+    padding: 10px 25px;
+    margin-right: 35px;
+    background-color: #f1f2f3;
+    border: none;
+    margin-bottom: 20px;
+    color: #6a554e;
+}
+
+.size-input-nameF {
+    width: 240px;
+    padding: 10px 25px;
+    background-color: #f1f2f3;
+    border: none;
+    margin-bottom: 20px;
+    color: #6a554e;
+}
+
+.size-input-tel-1 {
+    width: 112px;
+    padding: 10px 0px 10px 70px;
+    background-color: #f1f2f3;
+    border: none;
+    margin: 0px 10px 20px 0px;
+    color: #6a554e;
+}
+
+.size-input-tel-2 {
+    width: 112px;
+    padding: 10px 0px 10px 70px;
+    background-color: #f1f2f3;
+    border: none;
+    margin: 0px 10px 20px 10px;
+    color: #6a554e;
+}
+
+.size-input-tel-3 {
+    width: 112px;
+    padding: 10px 0px 10px 70px;
+    background-color: #f1f2f3;
+    border: none;
+    margin: 0px 0px 20px 10px;
+    color: #6a554e;
+}
+
+.size-input-text {
+    width: 570px;
+    padding: 10px 25px;
+    background-color: #f1f2f3;
+    border: none;
+    margin-bottom: 20px;
+    color: #6a554e;
+}
+
+input[type="radio"] {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+
+.form__input--radio {
+    display: flex;
+    gap: 75px;
+    margin-right: 270px;
+    margin-bottom: 20px;
+    color: #6a554e;
+}
+
+input[type="radio"] + label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+input[type="radio"] + label::before {
+    display: block;
+    content: "";
+    border-radius: 50%;
+    border: 1px solid;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+input[type="radio"] + label::after {
+    display: block;
+    position: absolute;
+    content: "";
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+}
+
+input[type="radio"]:checked + label::after {
+    display: block;
+    position: absolute;
+    content: "";
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    left: 1px;
+    background-color: #6a554e;
+}
+
+select {
+    appearance: none;
+}
+
+.form__input--select select{
+    background-color: #f1f2f3;
+    border: none;
+    margin-right: 300px;
+    width: 320px;
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    color: #6a554e;
+}
+
+.form__input--select{
+    position: relative;
+}
+
+.form__input--select::after {
+    content: "";
+    position: absolute;
+    border-right: 13px solid transparent;
+    border-left: 13px solid transparent;
+    border-top: 13px solid #6a554e;
+    border-bottom: 0;
+    translate: -150% -330%;
+    
+}
+
+.form__input--textarea textarea {
+    resize: none;
+    width: 570px;
+    height: 120px;
+    padding: 15px 25px;
+    background-color: #f1f2f3;
+    border: none;
+}
