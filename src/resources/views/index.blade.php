@@ -128,13 +128,13 @@
             </div>
         <div class="form__group-content">
             <div class="form__input--select">
-                <select name="confirm">
+                <select name="confirms">
                     <option value="select" selected hidden>選択してください</option>
-                    <option value="confirm1">商品のお届けについて</option>
-                    <option value="confirm2">商品の交換について</option>
-                    <option value="confirm3">商品トラブル</option>
-                    <option value="confirm4">ショップへのお問い合わせ</option>
-                    <option value="confirm5">その他</option>
+                    <option value="商品のお届けについて">商品のお届けについて</option>
+                    <option value="商品の交換について">商品の交換について</option>
+                    <option value="商品トラブル">商品トラブル</option>
+                    <option value="ショップへのお問い合わせ">ショップへのお問い合わせ</option>
+                    <option value="その他">その他</option>
                 </select>
             <div class="form__error">
                 <!--バリデーション機能を実装したら記述します。-->
