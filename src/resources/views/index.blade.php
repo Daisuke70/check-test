@@ -50,9 +50,9 @@
             </div>
         <div class="form__group-content">
             <div class="form__input--radio">
-                <input id="male" type="radio" name="gender" value="male" checked="checked"><label for="male">男性</label>
-                <input id="female" type="radio" name="gender" value="female"><label for="female">女性</label>
-                <input id="other" type="radio" name="gender" value="other"><label for="other">その他</label>
+                <input id="male" type="radio" name="gender" value="男性" checked="checked"><label for="male">男性</label>
+                <input id="female" type="radio" name="gender" value="女性"><label for="female">女性</label>
+                <input id="other" type="radio" name="gender" value="その他"><label for="other">その他</label>
             </div>
             <div class="form__error">
               <!--バリデーション機能を実装したら記述します。-->
