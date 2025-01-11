@@ -82,9 +82,9 @@
             </div>
         <div class="form__group-content">
             <div class="form__input--text">
-                <input type="tel" name="tel" class="size-input-tel-1" placeholder="080" /> -
-                <input type="tel" name="tel" class="size-input-tel-2" placeholder="1234" /> -
-                <input type="tel" name="tel" class="size-input-tel-3" placeholder="5678" />
+                <input type="tel" name="tel-1" class="size-input-tel-1" placeholder="080" /> -
+                <input type="tel" name="tel-2" class="size-input-tel-2" placeholder="1234" /> -
+                <input type="tel" name="tel-3" class="size-input-tel-3" placeholder="5678" />
             </div>
             <div class="form__error">
               <!--バリデーション機能を実装したら記述します。-->

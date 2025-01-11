@@ -27,8 +27,8 @@
                 <tr class="confirm-table__row">
                     <th class="confirm-table__header">お名前</th>
                     <td class="confirm-table__text">
-                    <input type="text" name="last-name" value="{{$contact['last-name']}}" readonly />
-                    <input type="text" name="first-name" value="{{$contact['first-name']}}" readonly />
+                    <input type="text" name="last-name"  value="{{$contact['last-name']}}" readonly /><!--
+                    -->&emsp;<input type="text" name="first-name"  value="{{$contact['first-name']}}" readonly />
                     </td>
                 </tr>
 
@@ -49,7 +49,9 @@
                 <tr class="confirm-table__row">
                     <th class="confirm-table__header">電話番号</th>
                     <td class="confirm-table__text">
-                    <input type="tel" name="tel" value="{{$contact['tel']}}" readonly />
+                    <input type="tel" name="tel-1" value="{{$contact['tel-1']}}" readonly /><!--
+                    --><input type="tel" name="tel-2" value="{{$contact['tel-2']}}" readonly /><!--
+                    --><input type="tel" name="tel-3" value="{{$contact['tel-3']}}" readonly />
                     </td>
                     </tr>
 
@@ -80,10 +82,11 @@
                     </tr>
                 
                 <tr class="confirm-table__row">
-                    <th class="confirm-table__header">お問い合わせの内容</th>
+                    <th class="confirm-table__header">お問い合わせ内容</th>
                     <td class="confirm-table__text">
-                    <input type="text" name="content" value="{{$contact['content']}}" readonly />
+                    <textarea class="confirm-content" cols="30" rows="4" name="content"{{ $contact->content }} readonly /></textarea>
                     </td>
+
                 </tr>
             </table>
         </div>
