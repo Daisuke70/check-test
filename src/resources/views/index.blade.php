@@ -149,7 +149,7 @@
             </div>
             <div class="form__group-content">
                 <div class="form__input--textarea">
-                    <textarea name="content" placeholder="お問い合せ内容をご記載ください"></textarea>
+                    <textarea name="content" rows="4" cols="30" placeholder="お問い合せ内容をご記載ください"></textarea>
                 </div>
             </div>
         </div>

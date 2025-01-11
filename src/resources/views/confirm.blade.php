@@ -61,7 +61,7 @@
                     <input type="text" name="address" value="{{$contact['address']}}" readonly />
                     </td>
                     </tr>
-                
+
                 <tr class="confirm-table__row">
                     <th class="confirm-table__header">建物名</th>
                     <td class="confirm-table__text">
@@ -84,7 +84,7 @@
                 <tr class="confirm-table__row">
                     <th class="confirm-table__header">お問い合わせ内容</th>
                     <td class="confirm-table__text">
-                    <textarea class="confirm-content" cols="30" rows="4" name="content"{{ $contact->content }} readonly /></textarea>
+                    <textarea class="confirm-txt" rows="4" cols="30" name="content">{{$contact['content']}}</textarea>
                     </td>
 
                 </tr>
