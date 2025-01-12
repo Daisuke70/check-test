@@ -3,18 +3,18 @@
     text-align: center;
 }
 
-.header__inner {
-    margin: 0 auto;
-    padding: 25px 10px;
-    max-width: 100%;
-    border-bottom: 1px solid ;
-}
-
 .header__logo {
-    color: #6a554e;
+    color: #9a8465;
     font-family: 'Georgia', serif;
     text-decoration: none;
-    font-size: 35px;
+    font-size: 40px;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 18px 10px;
+    max-width: 100%;
+    border-bottom: 1px solid ;
 }
 
 .contact-form__content {
@@ -26,14 +26,15 @@
 .contact-form__heading {
     margin-bottom: 40px;
     text-align: center;
-    color: #6a554e;
+    color: #9a8465;
+    font-family: 'Georgia', serif;
 }
 
 .form {
     margin: 0 auto;
     width: 80%;
     text-align: center;
-    color: #6a554e;
+    color: #9a8465;
 }
 
 .form__group {
@@ -53,7 +54,7 @@
     background-color: #f1f2f3;
     border: none;
     margin-bottom: 20px;
-    color: #6a554e;
+    color: #9a8465;
 }
 
 .size-input-nameF {
@@ -62,7 +63,7 @@
     background-color: #f1f2f3;
     border: none;
     margin-bottom: 20px;
-    color: #6a554e;
+    color: #9a8465;
 }
 
 .size-input-tel-1 {
@@ -71,7 +72,7 @@
     background-color: #f1f2f3;
     border: none;
     margin: 0px 10px 20px 0px;
-    color: #6a554e;
+    color: #9a8465;
 }
 
 .size-input-tel-2 {
@@ -80,7 +81,7 @@
     background-color: #f1f2f3;
     border: none;
     margin: 0px 10px 20px 10px;
-    color: #6a554e;
+    color: #9a8465;
 }
 
 .size-input-tel-3 {
@@ -89,7 +90,7 @@
     background-color: #f1f2f3;
     border: none;
     margin: 0px 0px 20px 10px;
-    color: #6a554e;
+    color: #9a8465;
 }
 
 .size-input-text {
@@ -98,7 +99,7 @@
     background-color: #f1f2f3;
     border: none;
     margin-bottom: 20px;
-    color: #6a554e;
+    color: #9a8465;
 }
 
 input[type="radio"] {
@@ -112,7 +113,7 @@ input[type="radio"] {
     gap: 75px;
     margin-right: 270px;
     margin-bottom: 20px;
-    color: #6a554e;
+    color: #9a8465;
 }
 
 input[type="radio"] + label {
@@ -149,7 +150,7 @@ input[type="radio"]:checked + label::after {
     width: 16px;
     height: 16px;
     left: 1px;
-    background-color: #6a554e;
+    background-color: #9a8465;
 }
 
 select {
@@ -161,9 +162,9 @@ select {
     border: none;
     margin-right: 300px;
     width: 320px;
-    padding: 10px 25px;
+    padding: 10px 0px 10px 25px;
     margin-bottom: 20px;
-    color: #6a554e;
+    color: #9a8465;
 }
 
 .form__input--select{
@@ -175,17 +176,36 @@ select {
     position: absolute;
     border-right: 13px solid transparent;
     border-left: 13px solid transparent;
-    border-top: 13px solid #6a554e;
+    border-top: 13px solid #9a8465;
     border-bottom: 0;
     translate: -150% -330%;
-    
+    pointer-events: none;
 }
 
 .form__input--textarea textarea {
     resize: none;
     width: 570px;
-    height: 120px;
+    height: 100px;
     padding: 15px 25px;
     background-color: #f1f2f3;
+    border: none;
+    color: #9a8465;
+}
+
+.form__error {
+    text-align: left;
+}
+
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    background: #6a554e;
+    color: white;
+    width: 15%;
+    height: 40px;
+    font-size: 17px;
+    translate: -10%;
     border: none;
 }

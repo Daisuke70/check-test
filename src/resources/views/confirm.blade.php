@@ -21,7 +21,8 @@
         <div class="contact-form__heading">
             <h2>Confirm</h2>
         </div>
-        <form class="form">
+        <form class="form" action="/thanks" method="post">
+        @csrf
         <div class="confirm-table">
             <table class="confirm-table__inner" border="1">
                 <tr class="confirm-table__row">
@@ -73,28 +74,26 @@
                     <th class="confirm-table__header">お問い合わせの種類</th>
                     <td class="confirm-table__text">
                     <?php
-                    if(isset($_POST["confirms"])) {
-                    $confirm = $_POST["confirms"];
-                    echo $confirm;
+                    if(isset($_POST["categories"])) {
+                    $categories = $_POST["categories"];
+                    echo $categories;
                     }
                     ?>
                     </td>
                     </tr>
-                
+            
                 <tr class="confirm-table__row">
                     <th class="confirm-table__header">お問い合わせ内容</th>
                     <td class="confirm-table__text">
-                    <textarea class="confirm-txt" rows="4" cols="30" name="content">{{$contact['content']}}</textarea>
+                    <textarea class="confirm-txt" rows="4" cols="30" name="detail">{{$contact['detail']}}</textarea>
                     </td>
-
                 </tr>
             </table>
         </div>
-        </form>
         <div class="form__button">
             <button class="form__button-submit" type="submit">送信</button>
-            <button class="form__button-modify" type="submit">修正</button>
         </div>
+        </form>
     </div>
 
 </main>
