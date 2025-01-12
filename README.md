@@ -2,7 +2,7 @@
 確認テスト　お問い合わせフォーム
 
 ## 環境構築
-Dockerビルド
+Dockerビルド  
 1.git clone git@github.com:Daisuke70/check-test.git  
 2.docker-compose up -d --build
 
