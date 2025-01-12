@@ -26,3 +26,5 @@ Laravel環境構築
 ## URL
 ・開発環境：http://localhost/  
 ・phpMyAdmin：http://localhost:8080/
+  
+情報が不十分でしたら、連絡して頂けると幸いです。
