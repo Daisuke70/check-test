@@ -14,9 +14,9 @@ Laravel環境構築
 5.php artisan migrate  
 
 ## 使用技術(実行環境)  
-・PHP  
-・Laravel  
-・MySQL  
+・PHP 7.4.9  
+・Laravel 8.83.8  
+・MySQL 15.1  
 
 
 ## ER図
