@@ -6,6 +6,8 @@ Dockerビルド
 1.git clone git@github.com:Daisuke70/check-test.git  
 2.docker-compose up -d --build  
 
+Laravel環境構築  
+1.docker-compose exec php bash
 
 ## 使用技術(実行環境)
 
